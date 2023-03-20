@@ -8,7 +8,6 @@ def l2ping_flood(mac):
     with subprocess.Popen(["l2ping", "-s", "600", "-f", mac]) as p:
         p.communicate()
  
-
 def restart_countdown(seconds):
     print('\n')
     for i in range(seconds):
