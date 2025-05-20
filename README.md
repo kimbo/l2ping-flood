@@ -15,7 +15,7 @@ A couple different fun things to try out:
 
 - Pair you bluetooth headphones to your computer and start listening to music.
 Then run this script with different numbers of processes and you'll hear how the bluetooth connection is being flooded and the music starts breaking up.
-- This one will work on Ubuntu. Like above, pair your bluetooth headphones to your computer. Run `bluetoothctl` in one terminal. Then run lsping-flood.py.
+- This one will work on Ubuntu. Like above, pair your bluetooth headphones to your computer. Run `bluetoothctl` in one terminal. Then run l2ping-flood.py.
 Watch the terminal where you're running `bluetoothctl` to see if you can force the headphones to disconnect.
 
 # Usage
